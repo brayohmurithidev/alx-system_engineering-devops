@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Creating an ssh that will bypass password config
+IdentityFile ~/.ssh/school
+PubkeyAuthentication yes
+PasswordAuthentication no
